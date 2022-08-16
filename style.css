@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+body {
+    background-image: url(./IMG/background.png);
+    background-size: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    align-items: center;
+    padding: 2rem 0;
+    margin: 3rem 4rem 0 4rem;
+    background-color: rgba(54, 53, 53, 0.3);
+    border-radius: 1rem;
+    border: solid #a8a8a8 1px;
+    box-shadow: #252525 10px 10px 20px;
+}
+
+.nav-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.nav-1 li a {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+header a:hover {
+    background: #fff;
+    color: black;
+    padding: 6px 6px;
+    border-radius: 4px;
+}
+
+.raposa {
+    background: #fff;
+}
+
+.fox {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+/* FIM MENU */
+
+
+.first-main {
+    display: flex;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.textinho {
+    max-width: 300px;
+    margin: 0 0 3rem 0;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.artistas { 
+    align-items: flex-end;
+}
+.first-main div div{
+color: #FFf;
+font-size: 1rem;
+}
+
+.artistas-selecionados{
+   padding-right: 6rem;
+   font-size: 1rem;
+}
+
+
+
+.nft {
+    max-width: 550px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nft-2{
+    color: #FF5B50;
+    font-size: 2rem;
+}
+
+.bagde {
+    width: 200px;
+}
+
+.galerias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.galerias img {
+    max-width: 307px;
+    border: solid gray 2px;
+}
+
+.second-menu {
+    display: flex;
+    background-color: #0e0e0e;
+    margin-top: 3rem;
+
+
+
+}
+
+.quantidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 3rem 0 3rem;
+    border-bottom: 1px solid gray;
+
+
+}
+
+.quantidade h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+}
+
+.quantidade p {
+    font: 11px;
+    color: gray;
+}
+
+.texto-lorem {
+    padding-top: 2rem;
+    border-left: 2px solid gray;
+    
+}
+
+.texto-lorem p {
+    color: #fff;
+}
+
+
+.texto-lorem a {
+    color: #FF5B50;
+
+
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.texto-1 {
+    flex-direction: column;
+    max-width: 335px;
+    justify-content: center;
+    padding-top: 4rem;
+    display: flex;
+    
+}
+
+.texto-2 {
+    padding-top: 4rem;
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+}
+.leia-mais{
+   padding-top: 50px;
+   text-decoration: underline;
+
+}
+.banner {
+    padding-top: 6rem;
+    max-width: 2560px; 
+    margin: 0;
+}
+/* FIM MAIN 1 */
+
+.populares-da-semana{
+   margin: 8rem 0 10rem 3rem;
+}
+.second-main{
+    display: flex;
+    background-color: #0e0e0e;
+    flex-wrap: wrap;
+    
+}
+.second-main div {
+    color: #fff;
+    font-weight: bold;
+    padding: 0rem 0 0rem 4rem;
+    font-size: 40px;
+    
+}
+.second-main div span{
+    color: #FF5B50;
+    font-weight: bold;
+}
+                    /* ASTRONAUTAS */
+section article{
+display: flex;
+
+}
+.ajuste{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 0 7rem 5rem ; 
+}
+article div h5{
+    margin-top: 5rem;
+}
+
+.astronautas{
+    max-width: 350px;
+    margin-right: 300px;
+   
+    
+}
+section article div h5{
+    font-size: 30px;
+}
+.seta{
+    margin-left: 6rem;
+}
+section article div p{
+    font-size: 16px;
+    padding: 3rem 0 2rem 0;
+    color: gray;
+    font-family: sans-serif;
+}
+section article div p span{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 10.5rem;
+}
+                        /* MAIN 3 */
+
+.third-main{
+    background: #0e0e0e;
+    
+}
+.melhores-artistas{
+    margin: 0 0 10rem 35rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+   
+    
+}
+.melhores-artistas span{
+    color: #FF5B50;
+}
+.artistas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+
+.bloco-artistas{
+    display: flex;
+    align-items: center;
+    background: #252525;
+    border-radius: 5px;
+    margin: 0 0 0 5rem;
+    padding: 2rem 5rem 2rem 1rem;
+    margin: 0 0 2rem 0;
+}
+.bloco-artistas div h6 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #fff;
+}
+section article div p span{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 10.5rem;
+}
+
+/* Melhor Artista  */
+.bloco-artistas2{
+    display: flex;
+    align-items: center;
+    background: #FF5B50;
+    border-radius: 5px;
+    margin: 0 0 0 5rem;
+    padding: 2rem 5rem 2rem 1rem;
+    margin: 0 0 2rem 0;
+}
+.bloco-artistas2 div h6 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    color: #fff;
+}
+section article div p span{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 10.5rem;
+}
+h3{
+    color: #FFf;
+    text-align: center;
+    padding: 2rem;
+}
+.setaa{
+    margin-left: 2rem; 
+}
+/* Melhor Artista */
+
+/* footer */
+
+footer{
+    background: #252525;
+    max-height: 100vh;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 4rem 0 0 4rem;
+   
+}
+.logo span{
+    color: #FF5B50;
+}
+.arrow-black{
+    margin: 4rem 4rem 3rem 0 ;
+    border-radius: 5px;
+    padding: 2rem;
+    background: #FF5B50;
+}
+/* Footer 2 */
+footer article{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+article section{
+    display: flex;
+    flex-direction: column;
+}
+article h4{
+    color: #FFf;
+    margin: 4rem 0 0 4rem;
+    font-size: 1.5rem;
+}
+.novidades{
+    color: #FF5B50;
+    margin: 0 0 1rem 4rem;
+    font-size: 1.5rem;
+}
+article input{
+    color: gray;
+    background: #0D0D0D;
+    padding: 16px 17px;
+    border: #FF5B50 solid 1px;
+    margin: 0 0 0 4rem;
+}
+article input::placeholder{
+    color: gray;
+}
+article a{
+    color: #FFf;
+    background: #FF5B50;
+    padding: 1rem;
+    border: none;
+}
+
+.ultimo-footer{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+gap: 10rem;
+border: 1px #5a5757 solid;
+
+}
+.first-block{
+    border-right: solid #5a5757 1px;
+   padding: 0 5rem 6rem 0;
+   margin: 0 2rem 0 0;
+}
+
+
+.second-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10rem;
+    padding-top: 5rem;
+    margin: 1rem 22.2rem 2rem 0;
+    
+    
+}
+.second-block aside div{
+    color: #FFf;
+    font-size: 1.6rem;
+    padding-bottom: 8px;
+}
+.second-block aside p{
+    color: #5a5757;
+   padding: 4px;
+   font-size: 1rem;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.final p{
+    color: #5a5757;
+    font-size: 1.6rem;
+}
+.final div{
+    display: flex;
+    gap: 3rem;
+    padding-right: 4rem;
+}
+
+
